@@ -1,0 +1,85 @@
+{
+  "Object Labels": "labels.json",
+
+  "Layered Surface": {
+    "Mesh": "surfaces/surface.obj",
+    "Trail": {
+      "Trail Width": 2.0,
+      "Track Width": 0.6,
+      "Wheelbase": 1.25,
+      "Path": "waypoints/x_axis_points.vprp"
+    },
+    "Layers": "surface_textures/road_surfaces.json"
+  },
+
+  "Surface Mesh": [
+    {
+      "Mesh": "surfaces/surface.obj",
+      "Rotate Y to Z": false,
+      "YawPitchRoll": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+
+  "Objects": [
+    {
+      "Mesh": "misc/cube.obj",
+      "Rotate Y to Z": true,
+      "Instances": [
+        {
+          "YawPitchRoll": [ 0, 0, 0 ],
+          "Position": [ 0.0, -5.0, 0.0 ],
+          "Scale": [ 150.0, 0.1, 1.8288 ]
+        },
+        {
+          "YawPitchRoll": [ 0, 0, 0 ],
+          "Position": [ 0.0, 25.0, 0.0 ],
+          "Scale": [ 150.0, 0.1, 1.8288 ]
+        },
+        {
+          "YawPitchRoll": [ 0, 0, 0 ],
+          "Position": [ -75.0, 10.0, 0.0 ],
+          "Scale": [ 0.1, 30.0, 1.8288 ]
+        },
+        {
+          "YawPitchRoll": [ 0, 0, 0 ],
+          "Position": [ 75.0, 10.0, 0.0 ],
+          "Scale": [ 0.1, 30.0, 1.8288 ]
+        },
+        {
+          "YawPitchRoll": [ 0, 0, 0 ],
+          "Position": [ -10.0, 5.0, 0.0 ],
+          "Scale": [ 130, 0.1, 1.8288 ]
+        },
+        {
+          "YawPitchRoll": [ 0, 0, 0 ],
+          "Position": [ 70.0, 5.0, 0.0 ],
+          "Scale": [ 10, 0.1, 1.8288 ]
+        },
+        {
+          "YawPitchRoll": [ 0, 0, 0 ],
+          "Position": [ 10.0, 15.0, 0.0 ],
+          "Scale": [ 130, 0.1, 1.8288 ]
+        },
+        {
+          "YawPitchRoll": [ 0, 0, 0 ],
+          "Position": [ -70.0, 15.0, 0.0 ],
+          "Scale": [ 10, 0.1, 1.8288 ]
+        }
+      ]
+    }
+  ]
+}
